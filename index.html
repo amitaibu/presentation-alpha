@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Gizra</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+	      <section id="transitions">
+	        <h2>Styles</h2>
+	        <p>
+	          Select transitions<br>
+	          <a href="?transition=none#/transitions">None</a> -
+	          <a href="?#/transitions">Default</a>
+	        </p>
+	      </section>
+
+				<section>
+					<h2>Our accelerator is called Gizra-alpha</h2>
+	      </section>
+
+				<section>
+					<h2>What we're looking for</h2>
+					<ul>
+						<li>
+							Have experience and market knowledge in a specific domain
+						</li>
+						<li>
+							Identify a problem in the domain that can be solved by web-based software solution
+						</li>
+						<li>
+							A "valuable enough to charge for" version of that solution can be built within 3 months by 2 developers (i.e. 6 developer/months)
+						</li>
+						<li>
+							Identified and can establish relationship with at least 5 potential clients for that solution
+						</li>
+					</ul>
+	      </section>
+
+				<section>
+					<h2>What we provide</h2>
+					<ul>
+						<li>
+							Design a solution
+						</li>
+						<li>
+							Implement working alpha within 3 months
+						</li>
+						<li>
+							Design / UX consulting
+						</li>
+						<li>
+							Business & marketing consulting
+						</li>
+						<li>
+							Administrative assistance
+						</li>
+						<li>
+							Office space
+						</li>
+					</ul>
+	      </section>
+
+				<section>
+					<h2>The process</h2>
+					<ul>
+						<li>
+							Choosing a project
+						</li>
+						<li>
+							Managing the project with Gizra way methodology
+						</li>
+						<li>
+							No Demo Day - hands on marketing and sales
+						</li>
+					</ul>
+	      </section>
+
+
+				<section>
+	        <div>
+	          <h2>Shoov - Gizra's testing toolkit</h2>
+						<div>
+						  <img src="https://cloud.githubusercontent.com/assets/125707/11167873/d41084ce-8b7d-11e5-99da-e466cf85efb4.png" />
+						</div>
+	        </div>
+	      </section>
+
+
+				<section>
+	        <div>
+	          <h2>Solution I - Visual Monitoring</h2>
+						<ul>
+							<li>Automatic process constantly takes screenshots in various browsers and devices</li>
+							<li>Compares to expected page format (baseline image)</li>
+							<li>Alerts dev team when the page changed</li>
+						</ul>
+	        </div>
+	      </section>
+
+				<section>
+					<div>
+						<img src="https://cloud.githubusercontent.com/assets/5812423/11766685/6bb5e44e-a19b-11e5-8716-afa5f759ef76.png" />
+					</div>
+				</section>
+
+				<section>
+	        <div>
+	          <h2>Solution I - Visual Monitoring</h2>
+						<div>
+							<iframe src="http://gfycat.com/ifr/CaringShowyHypacrosaurus" frameborder="0" scrolling="no" width="588" height="596" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
+						</div>
+	        </div>
+	      </section>
+
+			</div> <!-- end slides -->
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Parallax scrolling
+				// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
+				// parallaxBackgroundSize: '2100px 900px',
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>

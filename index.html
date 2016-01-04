@@ -16,6 +16,7 @@
 
 	<link rel="stylesheet" href="css/reveal.css">
 	<link rel="stylesheet" href="css/theme/moon.css" id="theme">
+	<link href="//fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
 
 	<!-- For syntax highlighting -->
 	<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -76,14 +77,13 @@
 
 			<!-- The Gizra Way 1st -->
 			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/12090366/f6591712-b2f6-11e5-907b-1765fd53251c.jpg" />
+				<img src="https://cloud.githubusercontent.com/assets/125707/12096834/e1274f56-b320-11e5-82ee-f1c00ea288f9.png" />
 			</section>
 
 			<!-- The Gizra Way 2nd -->
 			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/12096834/e1274f56-b320-11e5-82ee-f1c00ea288f9.png" />
+				<img src="https://cloud.githubusercontent.com/assets/125707/12090366/f6591712-b2f6-11e5-907b-1765fd53251c.jpg" />
 			</section>
-
 
 			<!-- Alpha examples -->
 
@@ -155,6 +155,21 @@
 				</aside>
 			</section>
 
+			<!-- P4D -->
+			<section>
+				<img class="stretch" src="https://cloud.githubusercontent.com/assets/125707/12098605/ea29fecc-b32b-11e5-9d4f-adff92b8402f.png" />
+			</section
+
+
+			<!-- Last slide -->
+			<section data-background="https://cloud.githubusercontent.com/assets/125707/11408842/6abc3708-93c4-11e5-8515-bf92a59cf8ea.jpg" data-background-image="https://cloud.githubusercontent.com/assets/125707/11408842/6abc3708-93c4-11e5-8515-bf92a59cf8ea.jpg" class="present" style="top: 257.5px; display: block;">
+				<span style="background-color: black; opacity: 0.85; padding: 20px 40px;">
+					<span style="font-family: Abril Fatface; color: #e27058; font-size: 50px;">
+						gizra
+					</span>
+					| Alpha
+				</span>
+			</section>
 
 
 		</div>
@@ -215,7 +230,10 @@
 				condition: function() {
 					return !!document.body.classList;
 				}
-			}]
+			},
+			{ src: 'socket.io/socket.io.js', async: true },
+			{ src: 'plugin/notes-server/client.js', async: true }
+		]
 		});
 	</script>
 

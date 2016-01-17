@@ -52,7 +52,7 @@
 				<!-- About  -->
 				<section data-background="https://cloud.githubusercontent.com/assets/125707/12092123/dd49649a-b303-11e5-9355-e49a3881f5bd.png">
 					<aside class="notes">
-						נשפר את האווירה. הלקוחות שלנו
+						לשפר את האווריה ולזכות בתשומת לב
 					</aside>
 				</section>
 
@@ -204,7 +204,9 @@
 					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
 					{ src: 'plugin/zoom-js/zoom.js', async: true },
-					{ src: 'plugin/notes/notes.js', async: true }
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'socket.io/socket.io.js', async: true },
+	        { src: 'plugin/notes-server/client.js', async: true }
 				]
 			});
 

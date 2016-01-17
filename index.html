@@ -1,243 +1,196 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-	<meta charset="utf-8">
+	<head>
+		<meta charset="utf-8">
 
-	<title>Gizra</title>
+		<title>reveal.js – The HTML Presentation Framework</title>
 
-	<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-	<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
 
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
 
-	<link rel="stylesheet" href="css/reveal.css">
-	<link rel="stylesheet" href="css/theme/moon.css" id="theme">
-	<link href="//fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link href="//fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet" type="text/css">
 
-	<!-- For syntax highlighting -->
-	<link rel="stylesheet" href="lib/css/zenburn.css">
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
 
-	<!-- If the query includes 'print-pdf', include the PDF print sheet -->
-	<script>
-		if (window.location.search.match(/print-pdf/gi)) {
-			var link = document.createElement('link');
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
 			link.rel = 'stylesheet';
 			link.type = 'text/css';
-			link.href = 'css/print/pdf.css';
-			document.getElementsByTagName('head')[0].appendChild(link);
-		}
-	</script>
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
 
-	<!--[if lt IE 9]>
+		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
-</head>
+	</head>
 
-<body>
+	<body>
 
-	<div class="reveal">
+		<div class="reveal">
 
-		<!-- Any section element inside of this container is displayed as a slide -->
-		<div class="slides">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
 
-			<section id="transitions">
-				<h2>Styles</h2>
-				<p>
-					Select transitions
-					<br>
-					<a href="?transition=none#/transitions">None</a> -
-					<a href="?#/transitions">Default</a>
-				</p>
-			</section>
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/12090495/2b7bfe54-b2f8-11e5-9ddf-6e3885f44f4b.jpg">
+					<div style="background-color: black; opacity: 0.75; padding: 20px;">
+						<h3>Our accelerator is called</h3>
+						<h2>Gizra-alpha</h2>
+					</div>
+				</section>
 
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/12090495/2b7bfe54-b2f8-11e5-9ddf-6e3885f44f4b.jpg">
-				<div style="background-color: black; opacity: 0.75; padding: 20px;">
-					<h3>Our accelerator is called</h3>
-					<h2>Gizra-alpha</h2>
-				</div>
-			</section>
-
-			<!-- About  -->
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/12092123/dd49649a-b303-11e5-9355-e49a3881f5bd.png">
-			</section>
+				<!-- About  -->
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/12092123/dd49649a-b303-11e5-9355-e49a3881f5bd.png">
+				</section>
 
 
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/12292817/67ad3814-b9f8-11e5-97ec-b5c201fcf4a3.jpg">
-				<aside class="notes">
-					By Default, an IT project will fail
-				</aside>
-			</section>
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/12292817/67ad3814-b9f8-11e5-97ec-b5c201fcf4a3.jpg">
+					<aside class="notes">
+						By Default, an IT project will fail
+					</aside>
+				</section>
 
-			<!-- The Gizra Way -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/12090366/f6591712-b2f6-11e5-907b-1765fd53251c.jpg" />
-			</section>
+				<!-- The Gizra Way -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/125707/12090366/f6591712-b2f6-11e5-907b-1765fd53251c.jpg" />
+				</section>
 
-			<!-- Alpha examples -->
+				<!-- Alpha examples -->
 
-			<!-- OpenScholar -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/11951341/e3774082-a898-11e5-9ff4-7f322166372f.jpg" />
-			</section>
-
-
-			<!-- NegaWatt -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/11421298/8f2481f4-943c-11e5-8317-1adbbe4f08cf.jpg" />
-			</section>
-
-			<!-- Shoov -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/11167873/d41084ce-8b7d-11e5-99da-e466cf85efb4.png" />
-			</section>
-
-			<!-- Shoov example -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/5812423/11766685/6bb5e44e-a19b-11e5-8716-afa5f759ef76.png" />
-			</section>
-
-			<section>
-				<iframe src="http://gfycat.com/ifr/CaringShowyHypacrosaurus" frameborder="0" scrolling="no" width="1176" height="1192" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
-			</section>
-
-			<!-- Circuit -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/165644/12091771/ccabf35c-b301-11e5-8a3d-a4ef7035f789.png" />
-			</section>
+				<!-- OpenScholar -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/125707/11951341/e3774082-a898-11e5-9ff4-7f322166372f.jpg" />
+				</section>
 
 
-			<!-- Pettry dish -->
-			<section data-background="http://www.bionetsa.com/uploads/3/6/2/3/3623525/7098366_orig.jpg">
-			</section>
+				<!-- NegaWatt -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/125707/11421298/8f2481f4-943c-11e5-8317-1adbbe4f08cf.jpg" />
+				</section>
 
-			<!-- Samuel L. Jackson -->
-			<section>
-				<img src="https://cloud.githubusercontent.com/assets/125707/12091049/b539aa3e-b2fc-11e5-9c5d-bfa461df4b9c.jpg" />
-			</section>
+				<!-- Shoov -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/125707/11167873/d41084ce-8b7d-11e5-99da-e466cf85efb4.png" />
+				</section>
 
-			<!-- Investor -->
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/12099080/dd46f2e8-b32e-11e5-8190-26457bbf96b8.jpg">
-				<div style="color: white;font-size: 80%;">
-					<div>1,000,000$</div>
-					<div>==> 20 projects * 50,000$</div>
-					<div>===> 6 month per project</div>
-				</div>
+				<!-- Shoov example -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/5812423/11766685/6bb5e44e-a19b-11e5-8716-afa5f759ef76.png" />
+				</section>
 
-				<aside class="notes">
-					Investor levels up the game
-				</aside>
-			</section>
+				<section>
+					<iframe src="http://gfycat.com/ifr/CaringShowyHypacrosaurus" frameborder="0" scrolling="no" width="1176" height="1192" style="-webkit-backface-visibility: hidden;-webkit-transform: scale(1);" ></iframe>
+				</section>
 
-
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/12097372/0bea3fca-b324-11e5-801d-922d25eb1e09.jpg">
-				<aside class="notes">
-					Be Capable.
-
-					We give:
-
-					Design a solution
-					Implement working alpha within 3 months
-					Design / UX consulting
-					Business & marketing consulting
-					Administrative assistance
-					Office space
-				</aside>
-			</section>
-
-			<!-- Our process -->
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/12098024/07495592-b328-11e5-9886-1d71b32eddb8.jpg">
-				<aside class="notes">
-					Our process:
-					No Demo Day; Threshold; Market validation; 3 month dev; 3 month marketing
-				</aside>
-			</section>
-
-			<!-- P4D -->
-			<section>
-				<img class="stretch" src="https://cloud.githubusercontent.com/assets/125707/12098605/ea29fecc-b32b-11e5-9d4f-adff92b8402f.png" />
-			</section
+				<!-- Circuit -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/165644/12091771/ccabf35c-b301-11e5-8a3d-a4ef7035f789.png" />
+				</section>
 
 
-			<!-- Last slide -->
-			<section data-background="https://cloud.githubusercontent.com/assets/125707/11408842/6abc3708-93c4-11e5-8515-bf92a59cf8ea.jpg" data-background-image="https://cloud.githubusercontent.com/assets/125707/11408842/6abc3708-93c4-11e5-8515-bf92a59cf8ea.jpg" class="present" style="top: 257.5px; display: block;">
-				<span style="background-color: black; opacity: 0.85; padding: 20px 40px;">
-					<span style="font-family: Abril Fatface; color: #e27058; font-size: 50px;">
-						gizra
+				<!-- Pettry dish -->
+				<section data-background="http://www.bionetsa.com/uploads/3/6/2/3/3623525/7098366_orig.jpg">
+				</section>
+
+				<!-- Samuel L. Jackson -->
+				<section>
+					<img src="https://cloud.githubusercontent.com/assets/125707/12091049/b539aa3e-b2fc-11e5-9c5d-bfa461df4b9c.jpg" />
+				</section>
+
+				<!-- Investor -->
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/12099080/dd46f2e8-b32e-11e5-8190-26457bbf96b8.jpg">
+					<div style="color: white;font-size: 80%;">
+						<div>1,000,000$</div>
+						<div>==> 20 projects * 50,000$</div>
+						<div>===> 6 month per project</div>
+					</div>
+
+					<aside class="notes">
+						Investor levels up the game
+					</aside>
+				</section>
+
+
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/12097372/0bea3fca-b324-11e5-801d-922d25eb1e09.jpg">
+					<aside class="notes">
+						Be Capable.
+
+						We give:
+
+						Design a solution
+						Implement working alpha within 3 months
+						Design / UX consulting
+						Business & marketing consulting
+						Administrative assistance
+						Office space
+					</aside>
+				</section>
+
+				<!-- Our process -->
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/12098024/07495592-b328-11e5-9886-1d71b32eddb8.jpg">
+					<aside class="notes">
+						Our process:
+						No Demo Day; Threshold; Market validation; 3 month dev; 3 month marketing
+					</aside>
+				</section>
+
+				<!-- P4D -->
+				<section>
+					<img class="stretch" src="https://cloud.githubusercontent.com/assets/125707/12098605/ea29fecc-b32b-11e5-9d4f-adff92b8402f.png" />
+				</section
+
+
+				<!-- Last slide -->
+				<section data-background="https://cloud.githubusercontent.com/assets/125707/11408842/6abc3708-93c4-11e5-8515-bf92a59cf8ea.jpg" data-background-image="https://cloud.githubusercontent.com/assets/125707/11408842/6abc3708-93c4-11e5-8515-bf92a59cf8ea.jpg" class="present" style="top: 257.5px; display: block;">
+					<span style="background-color: black; opacity: 0.85; padding: 20px 40px;">
+						<span style="font-family: Abril Fatface; color: #e27058; font-size: 50px;">
+							gizra
+						</span>
+						| Alpha
 					</span>
-					| Alpha
-				</span>
-			</section>
+				</section>
 
+			</div>
 
 		</div>
-		<!-- end slides -->
 
-	</div>
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
 
-	<script src="lib/js/head.min.js"></script>
-	<script src="js/reveal.min.js"></script>
+		<script>
 
-	<script>
-		// Full list of configuration options available here:
-		// https://github.com/hakimel/reveal.js#configuration
-		Reveal.initialize({
-			controls: false,
-			progress: true,
-			history: true,
-			center: true,
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
 
-			theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
-			transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
 
-			// Parallax scrolling
-			// parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg',
-			// parallaxBackgroundSize: '2100px 900px',
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
 
-			// Optional libraries used to extend on reveal.js
-			dependencies: [{
-				src: 'lib/js/classList.js',
-				condition: function() {
-					return !document.body.classList;
-				}
-			}, {
-				src: 'plugin/markdown/marked.js',
-				condition: function() {
-					return !!document.querySelector('[data-markdown]');
-				}
-			}, {
-				src: 'plugin/markdown/markdown.js',
-				condition: function() {
-					return !!document.querySelector('[data-markdown]');
-				}
-			}, {
-				src: 'plugin/highlight/highlight.js',
-				async: true,
-				callback: function() {
-					hljs.initHighlightingOnLoad();
-				}
-			}, {
-				src: 'plugin/zoom-js/zoom.js',
-				async: true,
-				condition: function() {
-					return !!document.body.classList;
-				}
-			}, {
-				src: 'plugin/notes/notes.js',
-				async: true,
-				condition: function() {
-					return !!document.body.classList;
-				}
-			},
-			{ src: 'socket.io/socket.io.js', async: true },
-			{ src: 'plugin/notes-server/client.js', async: true }
-		]
-		});
-	</script>
+		</script>
 
-</body>
-
+	</body>
 </html>
